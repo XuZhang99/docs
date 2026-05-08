@@ -1,6 +1,9 @@
 ---
 title: "xLLM"
 description: "xLLM documentation home"
+head:
+  - tag: title
+    content: "xLLM Documentation"
 ---
 ![xLLM](../assets/logo_with_llm.png)
 
@@ -44,4 +47,3 @@ LLM with parameter scales ranging from tens of billions to trillions are being r
 **Algorithm-driven Acceleration**
 - Speculative decoding optimization to improve efficiency through multi-core parallelism.
 - Dynamic load balancing of MoE experts to achieve efficient adjustment of expert distribution.
-
